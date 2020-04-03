@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\krist\\source\\repos\\TestCreacionProyecto\\TestCreacionProyecto\\TestCreacionProyecto.csproj": {}
+    "C:\\Users\\krist\\source\\repos\\WebNetCore\\TestCreacionProyecto\\TestCreacionProyecto.csproj": {}
   },
   "projects": {
-    "C:\\Users\\krist\\source\\repos\\TestCreacionProyecto\\TestCreacionProyecto\\TestCreacionProyecto.csproj": {
+    "C:\\Users\\krist\\source\\repos\\WebNetCore\\TestCreacionProyecto\\TestCreacionProyecto.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\krist\\source\\repos\\TestCreacionProyecto\\TestCreacionProyecto\\TestCreacionProyecto.csproj",
+        "projectUniqueName": "C:\\Users\\krist\\source\\repos\\WebNetCore\\TestCreacionProyecto\\TestCreacionProyecto.csproj",
         "projectName": "TestCreacionProyecto",
-        "projectPath": "C:\\Users\\krist\\source\\repos\\TestCreacionProyecto\\TestCreacionProyecto\\TestCreacionProyecto.csproj",
+        "projectPath": "C:\\Users\\krist\\source\\repos\\WebNetCore\\TestCreacionProyecto\\TestCreacionProyecto.csproj",
         "packagesPath": "C:\\Users\\krist\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\krist\\source\\repos\\TestCreacionProyecto\\TestCreacionProyecto\\obj\\",
+        "outputPath": "C:\\Users\\krist\\source\\repos\\WebNetCore\\TestCreacionProyecto\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\krist\\AppData\\Roaming\\NuGet\\NuGet.Config",
