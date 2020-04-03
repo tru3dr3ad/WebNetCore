@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\lmora\\Desktop\\proyecto kristal\\WebNetCore\\TestCreacionProyecto\\TestCreacionProyecto.csproj": {}
+    "C:\\Users\\krist\\source\\repos\\WebNetCore\\TestCreacionProyecto\\TestCreacionProyecto.csproj": {}
   },
   "projects": {
-    "C:\\Users\\lmora\\Desktop\\proyecto kristal\\WebNetCore\\TestCreacionProyecto\\TestCreacionProyecto.csproj": {
+    "C:\\Users\\krist\\source\\repos\\WebNetCore\\TestCreacionProyecto\\TestCreacionProyecto.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lmora\\Desktop\\proyecto kristal\\WebNetCore\\TestCreacionProyecto\\TestCreacionProyecto.csproj",
+        "projectUniqueName": "C:\\Users\\krist\\source\\repos\\WebNetCore\\TestCreacionProyecto\\TestCreacionProyecto.csproj",
         "projectName": "TestCreacionProyecto",
-        "projectPath": "C:\\Users\\lmora\\Desktop\\proyecto kristal\\WebNetCore\\TestCreacionProyecto\\TestCreacionProyecto.csproj",
-        "packagesPath": "C:\\Users\\lmora\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lmora\\Desktop\\proyecto kristal\\WebNetCore\\TestCreacionProyecto\\obj\\",
+        "projectPath": "C:\\Users\\krist\\source\\repos\\WebNetCore\\TestCreacionProyecto\\TestCreacionProyecto.csproj",
+        "packagesPath": "C:\\Users\\krist\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\krist\\source\\repos\\WebNetCore\\TestCreacionProyecto\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\lmora\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\krist\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -40,11 +37,45 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "dependencies": {
+            "EntityFramework": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.3, )"
+            }
+          },
           "imports": [
-            "net461"
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
           ],
           "assetTargetFallback": true,
-          "warn": true
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
         }
       }
     }
